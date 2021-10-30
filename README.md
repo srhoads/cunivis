@@ -1,7 +1,7 @@
 
 # How to make an R library: starting with nothing!
 
-* Optional but recommended: *
+<b><i>Optional but recommended:</i></b>
 
 - Open your Terminal 
 - Install the rproj module with pip
@@ -127,6 +127,7 @@ MacBook-Pro-3:cunivis rhoadss$ tree
 1 directory, 5 files
 ```
 
+# Finish building/generating required supporting documentation for your package:
 
 - Now, use `roxygen2`'s `roxygenize` function to auto-prepare most of the related necessary documentation/to update any changes you've made since your last build
   + This will create your `man` subdirectory with a separate `.Rd` file for each function you've indicated to `#' @export` in any `.R` files in your `R` subdirectory.
@@ -218,6 +219,8 @@ devtools::document()
 ```
 
 
+# PUBLISH YOUR PACKAGE!
+
 - Now, you can commit/push all your changes and then install your very own homemade package!
 ```shell
 git add . && git commit -m "initial library documented + publishing"
@@ -253,7 +256,7 @@ Downloading GitHub repo srhoads/cunivis@HEAD
 * DONE (cunivis)
 ```
 
-FOR YOUR FUTURE MODIFICATIONS OF YOUR R FUNCTIONS/CODE/OTHER ASPECTS OF THE PACKAGE:
+# FOR YOUR FUTURE MODIFICATIONS OF YOUR R FUNCTIONS/CODE/OTHER ASPECTS OF THE PACKAGE:
 
 - Each time I make a change to my library, I typically re-run this set of code to auto-update the documentation files, commit the changes, push them to GitHub, and then re-install my updated package:
 
@@ -289,7 +292,7 @@ gg
 <br>
 
 
-### IGNORE/MISC
+## <em style="color: maroon">IGNORE/MISC...</em>
 
 
 ```r
