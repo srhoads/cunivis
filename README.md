@@ -220,8 +220,37 @@ devtools::document()
 - Now, you can commit/push all your changes and then install your very own homemade package!
 ```shell
 git add . && git commit -m "initial library documented + publishing"
+git push
 ```
 
+## INSTALL YOUR PACKAGE IN R!
+```r
+devtools::install_github("srhoads/cunivis")
+```
+
+Output will look something like this...
+```
+> devtools::install_github("srhoads/cunivis")
+Downloading GitHub repo srhoads/cunivis@HEAD
+✓  checking for file ‘/private/var/folders/s4/vcf5kd_513q0nw8nz38gcx880000gq/T/Rtmp7250Mt/remotes258d38361d53/srhoads-cunivis-e8f6dee/DESCRIPTION’ ...
+─  preparing ‘cunivis’:
+✓  checking DESCRIPTION meta-information ...
+─  checking for LF line-endings in source and make files and shell scripts
+─  checking for empty or unneeded directories
+─  building ‘cunivis_0.0.0.9000.tar.gz’
+   
+* installing *source* package ‘cunivis’ ...
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (cunivis)
+```
 
 
 
