@@ -292,7 +292,7 @@ gg
 <br>
 
 
-## <span style="color:red;">IGNORE/MISC...</span>
+<h1 style="color:red;">IGNORE/MISC...</h1>
 
 
 ```r
