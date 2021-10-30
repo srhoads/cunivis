@@ -2,3 +2,4 @@
 
 export(ggplot_lm)
 import(ggplot2)
+importFrom(plotly,ggplotly)

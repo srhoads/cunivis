@@ -1,5 +1,6 @@
 #' @import ggplot2
-
+#' @importFrom plotly ggplotly
+#' 
 #' @title  Helper function for easily plotting a linear regression model fit using polished ggplot and/or plotly aesthetics
 #' @name ggplot_lm
 #' @export
