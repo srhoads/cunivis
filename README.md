@@ -1,4 +1,6 @@
 
+## Tutorial for Nikhil G. Authored by Sam Rhoads.
+
 # How to make an R library: starting with nothing!
 
 * Optional but recommended: *
